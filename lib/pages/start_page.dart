@@ -7,6 +7,7 @@ class StartPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     Vibration.vibrate(duration: 2000);
+
     return new Material(
       color: Colors.lightBlueAccent,
       child: new InkWell(
